@@ -1,0 +1,20 @@
+1
+00:00:00,001 --> 00:00:00,002
+1. openBrowser("http://demoaut.katalon.com/")
+
+2
+00:00:05,571 --> 00:00:05,571
+5. click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"))
+
+3
+00:00:06,307 --> 00:00:06,308
+9. sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), UserName)
+
+4
+00:00:06,523 --> 00:00:06,524
+13. sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), Password)
+
+5
+00:00:06,681 --> 00:00:06,682
+17. click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login"))
+

@@ -1,0 +1,48 @@
+1
+00:00:00,414 --> 00:00:00,428
+1. openBrowser(null)
+
+2
+00:00:03,304 --> 00:00:03,305
+5. navigateToUrl("http://demoaut.katalon.com/")
+
+3
+00:00:07,777 --> 00:00:07,778
+9. click(findTestObject("Object Repository/Home_Page/Page_CURA Healthcare Service/a_Make Appointment"))
+
+4
+00:00:08,539 --> 00:00:08,541
+13. setText(findTestObject("Object Repository/Home_Page/Page_CURA Healthcare Service/input_Username_username"), Username)
+
+5
+00:00:08,879 --> 00:00:08,880
+17. sendKeys(findTestObject("Object Repository/Home_Page/Page_CURA Healthcare Service/input_Password_password"), password)
+
+6
+00:00:09,141 --> 00:00:09,142
+21. click(findTestObject("Object Repository/Home_Page/Page_CURA Healthcare Service/button_Login"))
+
+7
+00:00:10,108 --> 00:00:10,118
+25. click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission"))
+
+8
+00:00:10,259 --> 00:00:10,260
+29. click(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"))
+
+9
+00:00:10,408 --> 00:00:10,409
+33. sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"), StrText)
+
+10
+00:00:10,586 --> 00:00:10,587
+37. selectOptionByIndex(findTestObject("Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center"), variable)
+
+11
+00:00:10,778 --> 00:00:10,779
+41. setText(findTestObject("Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date"), "22/03/2019")
+
+12
+00:00:11,080 --> 00:00:11,081
+45. click(findTestObject("Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Book Appointment"))
+

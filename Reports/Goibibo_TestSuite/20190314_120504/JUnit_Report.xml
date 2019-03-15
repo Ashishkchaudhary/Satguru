@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Goibibo_TestSuite" time="164" tests="2" failures="2" errors="0">
+   <testsuite name="Goibibo_TestSuite" tests="2" failures="2" errors="0" time="164" timestamp="2019-03-14 12:05:08" hostname="ttuser3 - ubuntu11" id="Test Suites/Goibibo_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/ttuser3/Katalon Studio/FirstProject/Reports/Goibibo_TestSuite/20190314_120504"/>
+         <property name="logFiles" value="/home/ttuser3/Katalon Studio/FirstProject/Reports/Goibibo_TestSuite/20190314_120504/execution0.log"/>
+         <property name="attachments" value="/home/ttuser3/Katalon Studio/FirstProject/Reports/Goibibo_TestSuite/20190314_120504/1552545414270.png, /home/ttuser3/Katalon Studio/FirstProject/Reports/Goibibo_TestSuite/20190314_120504/1552545469929.png"/>
+         <property name="hostName" value="ttuser3 - ubuntu11"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="cc7ab78de78ff247c1f0d9188863af74"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/GoibboTest1" classname="Test Cases/GoibboTest1" status="PASSED">
+         <system-out><![CDATA[2019-03-14 12:05:08 - [TEST_CASE][PASSED] - Test Cases/GoibboTest1: Test Cases/GoibboTest1
+
+2019-03-14 12:05:09 - [TEST_STEP][PASSED] - openBrowser("www.goibibo.com"): Browser is opened with url: 'www.goibibo.com'
+
+2019-03-14 12:05:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-14 12:05:09 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-14 12:05:18 - [MESSAGE][PASSED] - Browser is opened with url: 'www.goibibo.com'
+
+2019-03-14 12:05:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc"), Src): Keys 'Del' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:05:19 - [MESSAGE][PASSED] - Keys 'Del' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:05:19 - [TEST_STEP][PASSED] - sleep(2000): null
+
+2019-03-14 12:05:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:05:21 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:05:21 - [TEST_STEP][PASSED] - sleep(2000): null
+
+2019-03-14 12:05:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:05:23 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:05:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest"), Dest): Keys 'Blr' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:05:23 - [MESSAGE][PASSED] - Keys 'Blr' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:05:23 - [TEST_STEP][PASSED] - sleep(2000): null
+
+2019-03-14 12:05:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:05:25 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:05:25 - [TEST_STEP][PASSED] - sleep(2000): null
+
+2019-03-14 12:05:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:05:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:05:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15")): Object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15' is clicked on
+
+2019-03-14 12:05:29 - [MESSAGE][PASSED] - Object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15' is clicked on
+
+2019-03-14 12:05:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/button_SEARCH")): Object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/button_SEARCH' is clicked on
+
+2019-03-14 12:05:30 - [MESSAGE][PASSED] - Object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/button_SEARCH' is clicked on
+
+2019-03-14 12:05:30 - [TEST_STEP][PASSED] - sleep(2000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GoibboTest1" classname="Test Cases/GoibboTest1" status="PASSED">
+         <system-out><![CDATA[2019-03-14 12:05:34 - [TEST_CASE][PASSED] - Test Cases/GoibboTest1: Test Cases/GoibboTest1
+
+2019-03-14 12:05:34 - [TEST_STEP][PASSED] - openBrowser("www.goibibo.com"): Browser is opened with url: 'www.goibibo.com'
+
+2019-03-14 12:05:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-14 12:05:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-14 12:05:44 - [MESSAGE][PASSED] - Browser is opened with url: 'www.goibibo.com'
+
+2019-03-14 12:05:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc"), Src): Keys 'Blr' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:05:44 - [MESSAGE][PASSED] - Keys 'Blr' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:05:44 - [TEST_STEP][PASSED] - sleep(2000): null
+
+2019-03-14 12:05:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:05:46 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:05:46 - [TEST_STEP][PASSED] - sleep(2000): null
+
+2019-03-14 12:05:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:05:48 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:05:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest"), Dest): Keys 'Dxb' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:05:48 - [MESSAGE][PASSED] - Keys 'Dxb' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:05:48 - [TEST_STEP][PASSED] - sleep(2000): null
+
+2019-03-14 12:05:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:05:50 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:05:50 - [TEST_STEP][PASSED] - sleep(2000): null
+
+2019-03-14 12:05:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:05:53 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:05:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15")): Object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15' is clicked on
+
+2019-03-14 12:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15' is clicked on
+
+2019-03-14 12:05:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/button_SEARCH")): Object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/button_SEARCH' is clicked on
+
+2019-03-14 12:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/button_SEARCH' is clicked on
+
+2019-03-14 12:05:57 - [TEST_STEP][PASSED] - sleep(2000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GoibboTest1" classname="Test Cases/GoibboTest1" status="FAILED">
+         <failure type="FAILED" message="Test Cases/GoibboTest1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at GoibboTest1.run(GoibboTest1:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552545304473.run(TempTestSuite1552545304473.groovy:35)
+"/>
+         <system-out><![CDATA[2019-03-14 12:06:01 - [TEST_CASE][FAILED] - Test Cases/GoibboTest1: Test Cases/GoibboTest1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at GoibboTest1.run(GoibboTest1:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552545304473.run(TempTestSuite1552545304473.groovy:35)
+
+
+2019-03-14 12:06:01 - [TEST_STEP][PASSED] - openBrowser("www.goibibo.com"): Browser is opened with url: 'www.goibibo.com'
+
+2019-03-14 12:06:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-14 12:06:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-14 12:06:15 - [MESSAGE][PASSED] - Browser is opened with url: 'www.goibibo.com'
+
+2019-03-14 12:06:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc"), Src): Keys '' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:06:15 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:06:15 - [TEST_STEP][PASSED] - sleep(2000): null
+
+2019-03-14 12:06:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:06:17 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:06:17 - [TEST_STEP][PASSED] - sleep(2000): null
+
+2019-03-14 12:06:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:06:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:06:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest"), Dest): Keys '' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:06:19 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:06:19 - [TEST_STEP][PASSED] - sleep(2000): null
+
+2019-03-14 12:06:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:06:21 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:06:21 - [TEST_STEP][PASSED] - sleep(2000): null
+
+2019-03-14 12:06:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:06:23 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:06:23 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15")): click(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at GoibboTest1.run(GoibboTest1:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552545304473.run(TempTestSuite1552545304473.groovy:35)
+
+
+2019-03-14 12:06:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='searchWidgetCommon']/div/div/div/div/div[5]/div/div/div[2]/div[3]/div[3]/div[6]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-14 12:06:54 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15'
+[[ATTACHMENT|/home/ttuser3/Katalon Studio/FirstProject/Reports/Goibibo_TestSuite/20190314_120504/1552545414270.png]]
+
+2019-03-14 12:06:54 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at GoibboTest1.run(GoibboTest1:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552545304473.run(TempTestSuite1552545304473.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-03-14 12:06:01 - [TEST_CASE][FAILED] - Test Cases/GoibboTest1: Test Cases/GoibboTest1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at GoibboTest1.run(GoibboTest1:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552545304473.run(TempTestSuite1552545304473.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GoibboTest1" classname="Test Cases/GoibboTest1" status="FAILED">
+         <failure type="FAILED" message="Test Cases/GoibboTest1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at GoibboTest1.run(GoibboTest1:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552545304473.run(TempTestSuite1552545304473.groovy:35)
+"/>
+         <system-out><![CDATA[2019-03-14 12:06:56 - [TEST_CASE][FAILED] - Test Cases/GoibboTest1: Test Cases/GoibboTest1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at GoibboTest1.run(GoibboTest1:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552545304473.run(TempTestSuite1552545304473.groovy:35)
+
+
+2019-03-14 12:06:56 - [TEST_STEP][PASSED] - openBrowser("www.goibibo.com"): Browser is opened with url: 'www.goibibo.com'
+
+2019-03-14 12:06:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-14 12:06:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-14 12:07:10 - [MESSAGE][PASSED] - Browser is opened with url: 'www.goibibo.com'
+
+2019-03-14 12:07:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc"), Src): Keys '' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:07:10 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:07:10 - [TEST_STEP][PASSED] - sleep(2000): null
+
+2019-03-14 12:07:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:07:12 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:07:12 - [TEST_STEP][PASSED] - sleep(2000): null
+
+2019-03-14 12:07:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:07:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc'
+
+2019-03-14 12:07:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest"), Dest): Keys '' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:07:14 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:07:14 - [TEST_STEP][PASSED] - sleep(2000): null
+
+2019-03-14 12:07:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:07:17 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:07:17 - [TEST_STEP][PASSED] - sleep(2000): null
+
+2019-03-14 12:07:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:07:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest'
+
+2019-03-14 12:07:19 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15")): click(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at GoibboTest1.run(GoibboTest1:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552545304473.run(TempTestSuite1552545304473.groovy:35)
+
+
+2019-03-14 12:07:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='searchWidgetCommon']/div/div/div/div/div[5]/div/div/div[2]/div[3]/div[3]/div[6]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-14 12:07:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15'
+[[ATTACHMENT|/home/ttuser3/Katalon Studio/FirstProject/Reports/Goibibo_TestSuite/20190314_120504/1552545469929.png]]
+
+2019-03-14 12:07:50 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at GoibboTest1.run(GoibboTest1:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552545304473.run(TempTestSuite1552545304473.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-03-14 12:06:56 - [TEST_CASE][FAILED] - Test Cases/GoibboTest1: Test Cases/GoibboTest1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at GoibboTest1.run(GoibboTest1:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552545304473.run(TempTestSuite1552545304473.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-14 12:05:08 - [TEST_SUITE][FAILED] - Goibibo_TestSuite: Test Cases/GoibboTest1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at GoibboTest1.run(GoibboTest1:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552545304473.run(TempTestSuite1552545304473.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-03-14 12:05:08 - [TEST_SUITE][FAILED] - Goibibo_TestSuite: Test Cases/GoibboTest1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at GoibboTest1.run(GoibboTest1:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552545304473.run(TempTestSuite1552545304473.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

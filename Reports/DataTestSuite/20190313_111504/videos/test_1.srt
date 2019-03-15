@@ -1,0 +1,76 @@
+1
+00:00:00,426 --> 00:00:00,432
+1. openBrowser(null)
+
+2
+00:00:03,864 --> 00:00:03,865
+5. navigateToUrl("http://demoaut.katalon.com/")
+
+3
+00:00:07,121 --> 00:00:07,122
+9. click(findTestObject("Object Repository/Home_Page/Page_CURA Healthcare Service/a_Make Appointment"))
+
+4
+00:00:07,895 --> 00:00:07,896
+13. sleep(3000)
+
+5
+00:00:10,897 --> 00:00:10,898
+17. setText(findTestObject("Object Repository/Home_Page/Page_CURA Healthcare Service/input_Username_username"), Username)
+
+6
+00:00:11,120 --> 00:00:11,122
+21. sleep(3000)
+
+7
+00:00:14,123 --> 00:00:14,124
+25. sendKeys(findTestObject("Object Repository/Home_Page/Page_CURA Healthcare Service/input_Password_password"), password)
+
+8
+00:00:14,429 --> 00:00:14,430
+29. sleep(3000)
+
+9
+00:00:17,430 --> 00:00:17,431
+33. click(findTestObject("Object Repository/Home_Page/Page_CURA Healthcare Service/button_Login"))
+
+10
+00:00:18,413 --> 00:00:18,415
+37. sleep(3000)
+
+11
+00:00:21,415 --> 00:00:21,417
+41. click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission"))
+
+12
+00:00:21,591 --> 00:00:21,592
+45. sleep(3000)
+
+13
+00:00:24,592 --> 00:00:24,593
+49. click(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"))
+
+14
+00:00:24,746 --> 00:00:24,746
+53. sleep(3000)
+
+15
+00:00:27,747 --> 00:00:27,748
+57. sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"), StrText)
+
+16
+00:00:27,923 --> 00:00:27,925
+61. sleep(3000)
+
+17
+00:00:30,926 --> 00:00:30,927
+65. selectOptionByIndex(findTestObject("Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center"), variable)
+
+18
+00:00:31,094 --> 00:00:31,094
+69. sleep(3000)
+
+19
+00:00:34,095 --> 00:00:34,096
+73. sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date"), java.util.Date)
+

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite2,,,2019-03-11 17:35:00,2019-03-11 17:37:06,2m - 5.791s,FAILED
+,,,,,,
+Test Cases/TestCase_IRCTC,,,2019-03-11 17:35:01,2019-03-11 17:36:06,1m - 4.871s,FAILED
+"openBrowser(""www.irctc.com"")",,,2019-03-11 17:35:01,2019-03-11 17:36:06,1m - 4.318s,FAILED

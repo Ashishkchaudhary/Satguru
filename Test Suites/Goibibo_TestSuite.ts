@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Goibibo_TestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>9c224d71-3a76-4f33-9f66-250488388960</testSuiteGuid>
+   <testCaseLink>
+      <guid>8485cc97-d809-46b3-95c1-db7cbf7c44a2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/GoibboTest1</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e093f480-50eb-4011-b57c-ed56b2f4fec4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Goibibo_Data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e093f480-50eb-4011-b57c-ed56b2f4fec4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Src</value>
+         <variableId>cb3f89f3-f875-48c3-afae-21915bb1c9d7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e093f480-50eb-4011-b57c-ed56b2f4fec4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Dest</value>
+         <variableId>74e9d936-e0f0-4921-afc4-c65475e251f1</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

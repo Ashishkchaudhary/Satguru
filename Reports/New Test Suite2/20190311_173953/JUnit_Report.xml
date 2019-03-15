@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite2" time="30" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite2" tests="1" failures="0" errors="0" time="30" timestamp="2019-03-11 17:40:41" hostname="ttuser3 - ubuntu11" id="Test Suites/New Test Suite2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/ttuser3/Katalon Studio/FirstProject/Reports/New Test Suite2/20190311_173953"/>
+         <property name="logFiles" value="/home/ttuser3/Katalon Studio/FirstProject/Reports/New Test Suite2/20190311_173953/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ttuser3 - ubuntu11"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="baef4b0d9a6457f81a30733688053ad1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/TestCase_IRCTC" classname="Test Cases/TestCase_IRCTC" status="PASSED">
+         <system-out><![CDATA[2019-03-11 17:40:41 - [TEST_CASE][PASSED] - Test Cases/TestCase_IRCTC: Test Cases/TestCase_IRCTC
+
+2019-03-11 17:40:42 - [TEST_STEP][PASSED] - openBrowser("www.irctc.com"): Browser is opened with url: 'www.irctc.com'
+
+2019-03-11 17:40:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-11 17:40:42 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-11 17:40:50 - [MESSAGE][PASSED] - Browser is opened with url: 'www.irctc.com'
+
+2019-03-11 17:40:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_IRCTC Corporate Portal/div_TOURISM")): Object: 'Object Repository/Page_IRCTC Corporate Portal/div_TOURISM' is clicked on
+
+2019-03-11 17:40:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IRCTC Corporate Portal/div_TOURISM' is clicked on
+
+2019-03-11 17:40:50 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-03-11 17:40:50 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-03-11 17:40:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_IRCTC Tourism Official Website  Incredible India Travel  Tour Package/a_Europe"), 5): Scroll to object 'Object Repository/Page_IRCTC Tourism Official Website  Incredible India Travel  Tour Package/a_Europe' successfully
+
+2019-03-11 17:41:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_IRCTC Tourism Official Website  Incredible India Travel  Tour Package/a_Europe' successfully
+
+2019-03-11 17:41:10 - [TEST_STEP][PASSED] - x = getElementLeftPosition(findTestObject("Object Repository/Page_IRCTC Tourism Official Website  Incredible India Travel  Tour Package/a_Europe")): Left position of element 'Object Repository/Page_IRCTC Tourism Official Website  Incredible India Travel  Tour Package/a_Europe' is '416'
+
+2019-03-11 17:41:10 - [MESSAGE][PASSED] - Left position of element 'Object Repository/Page_IRCTC Tourism Official Website  Incredible India Travel  Tour Package/a_Europe' is '416'
+
+2019-03-11 17:41:10 - [TEST_STEP][PASSED] - println(x): null
+
+2019-03-11 17:41:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_IRCTC Tourism Official Website  Incredible India Travel  Tour Package/a_Europe")): Object: 'Object Repository/Page_IRCTC Tourism Official Website  Incredible India Travel  Tour Package/a_Europe' is clicked on
+
+2019-03-11 17:41:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IRCTC Tourism Official Website  Incredible India Travel  Tour Package/a_Europe' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-11 17:40:41 - [TEST_SUITE][PASSED] - New Test Suite2: Test Cases/TestCase_IRCTC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

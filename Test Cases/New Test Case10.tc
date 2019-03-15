@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Test Case10</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>256e08eb-768a-4268-b1b8-b5ddc11bfa9d</testCaseGuid>
+   <variable>
+      <defaultValue>'AGN231'</defaultValue>
+      <description></description>
+      <id>e7a050d1-6a7c-4c58-8354-4a21b3257677</id>
+      <masked>false</masked>
+      <name>User</name>
+   </variable>
+   <variable>
+      <defaultValue>'xyza@yopmail.com'</defaultValue>
+      <description></description>
+      <id>7851c384-12ff-45ca-8cfe-4e0e4a5ee8d2</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Xyza@123'</defaultValue>
+      <description></description>
+      <id>0fd2e5e7-ad36-44ca-abd8-eeeb3d5f5f0d</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Delhi'</defaultValue>
+      <description></description>
+      <id>e2efb7a9-53ea-4a88-8332-c61eb6b728c2</id>
+      <masked>false</masked>
+      <name>Starting</name>
+   </variable>
+</TestCaseEntity>

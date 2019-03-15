@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DataTestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>611d33f8-7c9e-4cb3-9e5a-a38ccc589a82</testSuiteGuid>
+   <testCaseLink>
+      <guid>3823c3c6-d94f-434b-9933-22f3f26f043c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/New Test Case1</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3116e04d-fee4-4eea-93ad-fd83f15dddf8</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataForHealth</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>3116e04d-fee4-4eea-93ad-fd83f15dddf8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserName</value>
+         <variableId>a842cf87-698c-477f-bb72-fe3f942f45fd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3116e04d-fee4-4eea-93ad-fd83f15dddf8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>88453c10-fe17-40bf-b71b-d819f2cfb32f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3116e04d-fee4-4eea-93ad-fd83f15dddf8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>StrText</value>
+         <variableId>2f5af543-6528-42d3-82b2-154205dd8805</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3116e04d-fee4-4eea-93ad-fd83f15dddf8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>variable</value>
+         <variableId>dd4de2f5-d082-4587-8369-c3d65f713e20</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3116e04d-fee4-4eea-93ad-fd83f15dddf8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Date</value>
+         <variableId>32a50ae6-855d-4ff0-ae60-9c60ef094502</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

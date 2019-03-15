@@ -1,0 +1,16 @@
+1
+00:00:00,359 --> 00:00:00,364
+1. openBrowser("www.irctc.com")
+
+2
+00:00:13,509 --> 00:00:13,510
+5. maximizeWindow()
+
+3
+00:00:13,653 --> 00:00:13,654
+9. click(findTestObject("Object Repository/Page_IRCTC Corporate Portal/div_TOURISM"))
+
+4
+00:00:15,592 --> 00:00:15,593
+13. switchToWindowIndex(1)
+

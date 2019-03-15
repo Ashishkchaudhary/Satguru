@@ -1,0 +1,84 @@
+1
+00:00:00,412 --> 00:00:00,418
+1. openBrowser(null)
+
+2
+00:00:03,561 --> 00:00:03,562
+5. navigateToUrl("http://demoaut.katalon.com/")
+
+3
+00:00:06,951 --> 00:00:06,953
+9. click(findTestObject("Object Repository/Home_Page/Page_CURA Healthcare Service/a_Make Appointment"))
+
+4
+00:00:07,678 --> 00:00:07,678
+13. sleep(3000)
+
+5
+00:00:10,680 --> 00:00:10,681
+17. setText(findTestObject("Object Repository/Home_Page/Page_CURA Healthcare Service/input_Username_username"), Username)
+
+6
+00:00:10,958 --> 00:00:10,959
+21. sleep(3000)
+
+7
+00:00:13,960 --> 00:00:13,961
+25. sendKeys(findTestObject("Object Repository/Home_Page/Page_CURA Healthcare Service/input_Password_password"), password)
+
+8
+00:00:14,238 --> 00:00:14,239
+29. sleep(3000)
+
+9
+00:00:17,239 --> 00:00:17,240
+33. click(findTestObject("Object Repository/Home_Page/Page_CURA Healthcare Service/button_Login"))
+
+10
+00:00:18,226 --> 00:00:18,229
+37. sleep(3000)
+
+11
+00:00:21,229 --> 00:00:21,230
+41. click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission"))
+
+12
+00:00:21,402 --> 00:00:21,403
+45. sleep(3000)
+
+13
+00:00:24,403 --> 00:00:24,404
+49. click(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"))
+
+14
+00:00:24,521 --> 00:00:24,522
+53. sleep(3000)
+
+15
+00:00:27,522 --> 00:00:27,523
+57. sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"), StrText)
+
+16
+00:00:27,702 --> 00:00:27,703
+61. sleep(3000)
+
+17
+00:00:30,704 --> 00:00:30,705
+65. selectOptionByIndex(findTestObject("Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center"), variable)
+
+18
+00:00:30,877 --> 00:00:30,878
+69. sleep(3000)
+
+19
+00:00:33,878 --> 00:00:33,883
+73. sleep(3000)
+
+20
+00:00:36,884 --> 00:00:36,885
+77. click(findTestObject("Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Book Appointment"))
+
+21
+00:00:37,121 --> 00:00:37,122
+81. sleep(3000)
+

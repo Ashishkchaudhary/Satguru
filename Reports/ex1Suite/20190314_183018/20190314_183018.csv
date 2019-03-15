@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ex1Suite,Chrome 71.0.3578.98,,2019-03-14 18:30:21,2019-03-14 18:30:33,12.134s,ERROR
+,,,,,,
+Test Cases/ex1,Chrome 71.0.3578.98,,2019-03-14 18:30:21,2019-03-14 18:30:33,11.739s,ERROR
+"openBrowser(""https://www.goibibo.com/"")",Chrome 71.0.3578.98,,2019-03-14 18:30:22,2019-03-14 18:30:29,6.958s,PASSED
+sleep(2000),Chrome 71.0.3578.98,,2019-03-14 18:30:29,2019-03-14 18:30:31,2.005s,PASSED
+newPackage.Auto.ddate(),Chrome 71.0.3578.98,,2019-03-14 18:30:31,2019-03-14 18:30:31,0.031s,ERROR

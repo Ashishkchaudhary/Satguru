@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DataTestSuite" time="37" tests="0" failures="0" errors="1">
+   <testsuite name="DataTestSuite" tests="0" failures="0" errors="1" time="37" timestamp="2019-03-13 10:58:20" hostname="ttuser3 - ubuntu11" id="Test Suites/DataTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/ttuser3/Katalon Studio/FirstProject/Reports/DataTestSuite/20190313_105816"/>
+         <property name="logFiles" value="/home/ttuser3/Katalon Studio/FirstProject/Reports/DataTestSuite/20190313_105816/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ttuser3 - ubuntu11"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="deea962feed69e8193a6bfc3ade0cdd0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case1" classname="Test Cases/New Test Case1" status="ERROR">
+         <error type="ERROR" message="Test Cases/New Test Case1 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Class) values: [TestObject - 'Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date', ...]
+Possible solutions: sendKeys(com.kms.katalon.core.testobject.TestObject, java.lang.String), sendKeys(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)
+	at New Test Case1.run(New Test Case1:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552454896653.run(TempTestSuite1552454896653.groovy:35)
+"/>
+         <system-out><![CDATA[2019-03-13 10:58:20 - [TEST_CASE][ERROR] - Test Cases/New Test Case1: Test Cases/New Test Case1 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Class) values: [TestObject - 'Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date', ...]
+Possible solutions: sendKeys(com.kms.katalon.core.testobject.TestObject, java.lang.String), sendKeys(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)
+	at New Test Case1.run(New Test Case1:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552454896653.run(TempTestSuite1552454896653.groovy:35)
+
+
+2019-03-13 10:58:21 - [TEST_STEP][PASSED] - openBrowser(null): Browser is opened with url: 'null'
+
+2019-03-13 10:58:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-13 10:58:21 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-13 10:58:24 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2019-03-13 10:58:24 - [TEST_STEP][PASSED] - navigateToUrl("http://demoaut.katalon.com/"): Navigate to 'http://demoaut.katalon.com/' successfully
+
+2019-03-13 10:58:28 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+2019-03-13 10:58:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home_Page/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Home_Page/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-03-13 10:58:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_Page/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-03-13 10:58:29 - [TEST_STEP][PASSED] - sleep(3000): null
+
+2019-03-13 10:58:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Home_Page/Page_CURA Healthcare Service/input_Username_username"), Username): Text 'John Doe' is set on object 'Object Repository/Home_Page/Page_CURA Healthcare Service/input_Username_username'
+
+2019-03-13 10:58:32 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Home_Page/Page_CURA Healthcare Service/input_Username_username'
+
+2019-03-13 10:58:32 - [TEST_STEP][PASSED] - sleep(3000): null
+
+2019-03-13 10:58:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Home_Page/Page_CURA Healthcare Service/input_Password_password"), password): Keys 'ThisIsNotAPassword' sent to object: 'Object Repository/Home_Page/Page_CURA Healthcare Service/input_Password_password'
+
+2019-03-13 10:58:36 - [MESSAGE][PASSED] - Keys 'ThisIsNotAPassword' sent to object: 'Object Repository/Home_Page/Page_CURA Healthcare Service/input_Password_password'
+
+2019-03-13 10:58:36 - [TEST_STEP][PASSED] - sleep(3000): null
+
+2019-03-13 10:58:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home_Page/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Home_Page/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-03-13 10:58:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_Page/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-03-13 10:58:40 - [TEST_STEP][PASSED] - sleep(3000): null
+
+2019-03-13 10:58:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission' is clicked on
+
+2019-03-13 10:58:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission' is clicked on
+
+2019-03-13 10:58:43 - [TEST_STEP][PASSED] - sleep(3000): null
+
+2019-03-13 10:58:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment")): Object: 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment' is clicked on
+
+2019-03-13 10:58:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment' is clicked on
+
+2019-03-13 10:58:46 - [TEST_STEP][PASSED] - sleep(3000): null
+
+2019-03-13 10:58:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"), StrText): Keys 'Hi How Are You' sent to object: 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2019-03-13 10:58:49 - [MESSAGE][PASSED] - Keys 'Hi How Are You' sent to object: 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2019-03-13 10:58:49 - [TEST_STEP][PASSED] - sleep(3000): null
+
+2019-03-13 10:58:52 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center"), variable): All options with index in [1] are selected on object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center'
+
+2019-03-13 10:58:52 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center'
+
+2019-03-13 10:58:52 - [TEST_STEP][PASSED] - sleep(3000): null
+
+2019-03-13 10:58:55 - [TEST_STEP][ERROR] - sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date"), java.util.Date): sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date"), java.util.Date) FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Class) values: [TestObject - 'Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date', ...]
+Possible solutions: sendKeys(com.kms.katalon.core.testobject.TestObject, java.lang.String), sendKeys(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)
+	at New Test Case1.run(New Test Case1:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552454896653.run(TempTestSuite1552454896653.groovy:35)
+
+
+2019-03-13 10:58:55 - [MESSAGE][ERROR] - sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date"), java.util.Date) FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Class) values: [TestObject - 'Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date', ...]
+Possible solutions: sendKeys(com.kms.katalon.core.testobject.TestObject, java.lang.String), sendKeys(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)
+	at New Test Case1.run(New Test Case1:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552454896653.run(TempTestSuite1552454896653.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-03-13 10:58:20 - [TEST_CASE][ERROR] - Test Cases/New Test Case1: Test Cases/New Test Case1 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Class) values: [TestObject - 'Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date', ...]
+Possible solutions: sendKeys(com.kms.katalon.core.testobject.TestObject, java.lang.String), sendKeys(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)
+	at New Test Case1.run(New Test Case1:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552454896653.run(TempTestSuite1552454896653.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-13 10:58:20 - [TEST_SUITE][ERROR] - DataTestSuite: Test Cases/New Test Case1 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Class) values: [TestObject - 'Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date', ...]
+Possible solutions: sendKeys(com.kms.katalon.core.testobject.TestObject, java.lang.String), sendKeys(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)
+	at New Test Case1.run(New Test Case1:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552454896653.run(TempTestSuite1552454896653.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-03-13 10:58:20 - [TEST_SUITE][ERROR] - DataTestSuite: Test Cases/New Test Case1 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Class) values: [TestObject - 'Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date', ...]
+Possible solutions: sendKeys(com.kms.katalon.core.testobject.TestObject, java.lang.String), sendKeys(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)
+	at New Test Case1.run(New Test Case1:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552454896653.run(TempTestSuite1552454896653.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,48 @@
+1
+00:00:00,001 --> 00:00:00,001
+1. openBrowser("www.goibibo.com")
+
+2
+00:00:13,575 --> 00:00:13,575
+5. sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc"), Src)
+
+3
+00:00:13,673 --> 00:00:13,674
+9. sleep(2000)
+
+4
+00:00:15,674 --> 00:00:15,675
+13. sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc"), Keys.chord(ARROW_DOWN))
+
+5
+00:00:15,754 --> 00:00:15,755
+17. sleep(2000)
+
+6
+00:00:17,755 --> 00:00:17,756
+21. sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc"), Keys.chord(ENTER))
+
+7
+00:00:17,809 --> 00:00:17,809
+25. sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest"), Dest)
+
+8
+00:00:17,878 --> 00:00:17,880
+29. sleep(2000)
+
+9
+00:00:19,880 --> 00:00:19,881
+33. sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest"), Keys.chord(ARROW_DOWN))
+
+10
+00:00:19,934 --> 00:00:19,934
+37. sleep(2000)
+
+11
+00:00:21,935 --> 00:00:21,935
+41. sendKeys(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest"), Keys.chord(ENTER))
+
+12
+00:00:21,980 --> 00:00:21,981
+45. click(findTestObject("Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15"))
+

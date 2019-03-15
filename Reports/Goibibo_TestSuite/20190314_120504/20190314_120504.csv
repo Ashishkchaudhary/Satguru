@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Goibibo_TestSuite,Chrome 71.0.3578.98,,2019-03-14 12:05:08,2019-03-14 12:07:52,2m - 44.474s,FAILED
+,,,,,,
+Test Cases/GoibboTest1,Chrome 71.0.3578.98,,2019-03-14 12:05:08,2019-03-14 12:05:34,25.811s,PASSED
+"openBrowser(""www.goibibo.com"")",Chrome 71.0.3578.98,,2019-03-14 12:05:09,2019-03-14 12:05:18,9.695s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc""), Src)",Chrome 71.0.3578.98,,2019-03-14 12:05:18,2019-03-14 12:05:19,0.330s,PASSED
+sleep(2000),Chrome 71.0.3578.98,,2019-03-14 12:05:19,2019-03-14 12:05:21,2.002s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc""), Keys.chord(ARROW_DOWN))",Chrome 71.0.3578.98,,2019-03-14 12:05:21,2019-03-14 12:05:21,0.071s,PASSED
+sleep(2000),Chrome 71.0.3578.98,,2019-03-14 12:05:21,2019-03-14 12:05:23,2.001s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-03-14 12:05:23,2019-03-14 12:05:23,0.228s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest""), Dest)",Chrome 71.0.3578.98,,2019-03-14 12:05:23,2019-03-14 12:05:23,0.197s,PASSED
+sleep(2000),Chrome 71.0.3578.98,,2019-03-14 12:05:23,2019-03-14 12:05:25,2.001s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest""), Keys.chord(ARROW_DOWN))",Chrome 71.0.3578.98,,2019-03-14 12:05:25,2019-03-14 12:05:25,0.076s,PASSED
+sleep(2000),Chrome 71.0.3578.98,,2019-03-14 12:05:25,2019-03-14 12:05:27,2.001s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-03-14 12:05:27,2019-03-14 12:05:27,0.081s,PASSED
+"click(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15""))",Chrome 71.0.3578.98,,2019-03-14 12:05:27,2019-03-14 12:05:29,1.895s,PASSED
+"click(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/button_SEARCH""))",Chrome 71.0.3578.98,,2019-03-14 12:05:29,2019-03-14 12:05:30,0.420s,PASSED
+sleep(2000),Chrome 71.0.3578.98,,2019-03-14 12:05:30,2019-03-14 12:05:32,2.001s,PASSED
+,,,,,,
+Test Cases/GoibboTest1,Chrome 71.0.3578.98,,2019-03-14 12:05:34,2019-03-14 12:06:01,27.361s,PASSED
+"openBrowser(""www.goibibo.com"")",Chrome 71.0.3578.98,,2019-03-14 12:05:34,2019-03-14 12:05:44,10.257s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc""), Src)",Chrome 71.0.3578.98,,2019-03-14 12:05:44,2019-03-14 12:05:44,0.220s,PASSED
+sleep(2000),Chrome 71.0.3578.98,,2019-03-14 12:05:44,2019-03-14 12:05:46,2.002s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc""), Keys.chord(ARROW_DOWN))",Chrome 71.0.3578.98,,2019-03-14 12:05:46,2019-03-14 12:05:46,0.051s,PASSED
+sleep(2000),Chrome 71.0.3578.98,,2019-03-14 12:05:46,2019-03-14 12:05:48,2.000s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-03-14 12:05:48,2019-03-14 12:05:48,0.083s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest""), Dest)",Chrome 71.0.3578.98,,2019-03-14 12:05:48,2019-03-14 12:05:48,0.136s,PASSED
+sleep(2000),Chrome 71.0.3578.98,,2019-03-14 12:05:48,2019-03-14 12:05:50,2.001s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest""), Keys.chord(ARROW_DOWN))",Chrome 71.0.3578.98,,2019-03-14 12:05:50,2019-03-14 12:05:50,0.069s,PASSED
+sleep(2000),Chrome 71.0.3578.98,,2019-03-14 12:05:50,2019-03-14 12:05:52,2.001s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-03-14 12:05:52,2019-03-14 12:05:53,0.090s,PASSED
+"click(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15""))",Chrome 71.0.3578.98,,2019-03-14 12:05:53,2019-03-14 12:05:57,4.000s,PASSED
+"click(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/button_SEARCH""))",Chrome 71.0.3578.98,,2019-03-14 12:05:57,2019-03-14 12:05:57,0.379s,PASSED
+sleep(2000),Chrome 71.0.3578.98,,2019-03-14 12:05:57,2019-03-14 12:05:59,2.000s,PASSED
+,,,,,,
+Test Cases/GoibboTest1,Chrome 71.0.3578.98,,2019-03-14 12:06:01,2019-03-14 12:06:56,55.268s,FAILED
+"openBrowser(""www.goibibo.com"")",Chrome 71.0.3578.98,,2019-03-14 12:06:01,2019-03-14 12:06:15,13.574s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc""), Src)",Chrome 71.0.3578.98,,2019-03-14 12:06:15,2019-03-14 12:06:15,0.099s,PASSED
+sleep(2000),Chrome 71.0.3578.98,,2019-03-14 12:06:15,2019-03-14 12:06:17,2.001s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc""), Keys.chord(ARROW_DOWN))",Chrome 71.0.3578.98,,2019-03-14 12:06:17,2019-03-14 12:06:17,0.080s,PASSED
+sleep(2000),Chrome 71.0.3578.98,,2019-03-14 12:06:17,2019-03-14 12:06:19,2.001s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-03-14 12:06:19,2019-03-14 12:06:19,0.053s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest""), Dest)",Chrome 71.0.3578.98,,2019-03-14 12:06:19,2019-03-14 12:06:19,0.071s,PASSED
+sleep(2000),Chrome 71.0.3578.98,,2019-03-14 12:06:19,2019-03-14 12:06:21,2.001s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest""), Keys.chord(ARROW_DOWN))",Chrome 71.0.3578.98,,2019-03-14 12:06:21,2019-03-14 12:06:21,0.053s,PASSED
+sleep(2000),Chrome 71.0.3578.98,,2019-03-14 12:06:21,2019-03-14 12:06:23,2.001s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-03-14 12:06:23,2019-03-14 12:06:23,0.045s,PASSED
+"click(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15""))",Chrome 71.0.3578.98,,2019-03-14 12:06:23,2019-03-14 12:06:54,31.177s,FAILED
+,,,,,,
+Test Cases/GoibboTest1,Chrome 71.0.3578.98,,2019-03-14 12:06:56,2019-03-14 12:07:52,55.674s,FAILED
+"openBrowser(""www.goibibo.com"")",Chrome 71.0.3578.98,,2019-03-14 12:06:56,2019-03-14 12:07:10,13.903s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc""), Src)",Chrome 71.0.3578.98,,2019-03-14 12:07:10,2019-03-14 12:07:10,0.082s,PASSED
+sleep(2000),Chrome 71.0.3578.98,,2019-03-14 12:07:10,2019-03-14 12:07:12,2.000s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc""), Keys.chord(ARROW_DOWN))",Chrome 71.0.3578.98,,2019-03-14 12:07:12,2019-03-14 12:07:12,0.137s,PASSED
+sleep(2000),Chrome 71.0.3578.98,,2019-03-14 12:07:12,2019-03-14 12:07:14,2.001s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputSrc""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-03-14 12:07:14,2019-03-14 12:07:14,0.064s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest""), Dest)",Chrome 71.0.3578.98,,2019-03-14 12:07:14,2019-03-14 12:07:14,0.067s,PASSED
+sleep(2000),Chrome 71.0.3578.98,,2019-03-14 12:07:14,2019-03-14 12:07:17,2.002s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest""), Keys.chord(ARROW_DOWN))",Chrome 71.0.3578.98,,2019-03-14 12:07:17,2019-03-14 12:07:17,0.044s,PASSED
+sleep(2000),Chrome 71.0.3578.98,,2019-03-14 12:07:17,2019-03-14 12:07:19,2.000s,PASSED
+"sendKeys(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/input_Multicity_gosuggest_inputDest""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-03-14 12:07:19,2019-03-14 12:07:19,0.060s,PASSED
+"click(findTestObject(""Object Repository/goibibo/Page_Online flight booking Hotels Bus amp Holiday Packages at Goibibo/div_15""))",Chrome 71.0.3578.98,,2019-03-14 12:07:19,2019-03-14 12:07:50,31.221s,FAILED

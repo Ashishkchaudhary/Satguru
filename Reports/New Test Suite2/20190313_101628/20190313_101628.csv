@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite2,Chrome 71.0.3578.98,,2019-03-13 10:16:32,2019-03-13 10:17:34,1m - 1.849s,FAILED
+,,,,,,
+Test Cases/TestCase_IRCTC,Chrome 71.0.3578.98,,2019-03-13 10:16:32,2019-03-13 10:17:22,49.693s,FAILED
+"openBrowser(""www.irctc.com"")",Chrome 71.0.3578.98,,2019-03-13 10:16:33,2019-03-13 10:16:46,13.147s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-03-13 10:16:46,2019-03-13 10:16:46,0.143s,PASSED
+"click(findTestObject(""Object Repository/Page_IRCTC Corporate Portal/div_TOURISM""))",Chrome 71.0.3578.98,,2019-03-13 10:16:46,2019-03-13 10:16:48,1.939s,PASSED
+switchToWindowIndex(1),Chrome 71.0.3578.98,,2019-03-13 10:16:48,2019-03-13 10:17:20,31.745s,FAILED
+,,,,,,
+Test Cases/New Test Case1,Chrome 71.0.3578.98,,2019-03-13 10:17:22,2019-03-13 10:17:34,11.813s,PASSED
+openBrowser(null),Chrome 71.0.3578.98,,2019-03-13 10:17:22,2019-03-13 10:17:24,1.897s,PASSED
+"navigateToUrl(""http://demoaut.katalon.com/"")",Chrome 71.0.3578.98,,2019-03-13 10:17:24,2019-03-13 10:17:28,3.766s,PASSED
+"click(findTestObject(""Object Repository/Home_Page/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 71.0.3578.98,,2019-03-13 10:17:28,2019-03-13 10:17:28,0.705s,PASSED
+"setText(findTestObject(""Object Repository/Home_Page/Page_CURA Healthcare Service/input_Username_username""), Username)",Chrome 71.0.3578.98,,2019-03-13 10:17:28,2019-03-13 10:17:29,0.367s,PASSED
+"sendKeys(findTestObject(""Object Repository/Home_Page/Page_CURA Healthcare Service/input_Password_password""), password)",Chrome 71.0.3578.98,,2019-03-13 10:17:29,2019-03-13 10:17:29,0.266s,PASSED
+"click(findTestObject(""Object Repository/Home_Page/Page_CURA Healthcare Service/button_Login""))",Chrome 71.0.3578.98,,2019-03-13 10:17:29,2019-03-13 10:17:30,0.856s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission""))",Chrome 71.0.3578.98,,2019-03-13 10:17:30,2019-03-13 10:17:30,0.157s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""))",Chrome 71.0.3578.98,,2019-03-13 10:17:30,2019-03-13 10:17:30,0.120s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), StrText)",Chrome 71.0.3578.98,,2019-03-13 10:17:30,2019-03-13 10:17:30,0.175s,PASSED
+"selectOptionByIndex(findTestObject(""Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center""), variable)",Chrome 71.0.3578.98,,2019-03-13 10:17:30,2019-03-13 10:17:31,0.203s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""), ""22/03/2019"")",Chrome 71.0.3578.98,,2019-03-13 10:17:31,2019-03-13 10:17:31,0.308s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 71.0.3578.98,,2019-03-13 10:17:31,2019-03-13 10:17:32,0.672s,PASSED

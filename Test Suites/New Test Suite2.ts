@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>New Test Suite2</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient>varun.tyagi@techtreeit.com;ashishchaudhary201993@gmail.com;</mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>35fac03a-6523-4c45-930b-5cddf2d4de63</testSuiteGuid>
+   <testCaseLink>
+      <guid>d8559259-ebb3-44b8-8fa8-34d26d34bcb5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase_IRCTC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8e952a59-0089-44a9-b4cc-bd37077742e8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/New Test Case1</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a842cf87-698c-477f-bb72-fe3f942f45fd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>88453c10-fe17-40bf-b71b-d819f2cfb32f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2f5af543-6528-42d3-82b2-154205dd8805</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dd4de2f5-d082-4587-8369-c3d65f713e20</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>32a50ae6-855d-4ff0-ae60-9c60ef094502</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

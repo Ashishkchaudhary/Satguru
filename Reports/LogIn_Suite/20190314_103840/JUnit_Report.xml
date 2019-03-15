@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LogIn_Suite" time="76" tests="4" failures="0" errors="0">
+   <testsuite name="LogIn_Suite" tests="4" failures="0" errors="0" time="76" timestamp="2019-03-14 10:38:46" hostname="ttuser3 - ubuntu11" id="Test Suites/LogIn_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/ttuser3/Katalon Studio/FirstProject/Reports/LogIn_Suite/20190314_103840"/>
+         <property name="logFiles" value="/home/ttuser3/Katalon Studio/FirstProject/Reports/LogIn_Suite/20190314_103840/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ttuser3 - ubuntu11"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="a2f0012d484ed10c666e6d42de757346"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/LogIn_Case" classname="Test Cases/LogIn_Case" status="PASSED">
+         <system-out><![CDATA[2019-03-14 10:38:46 - [TEST_CASE][PASSED] - Test Cases/LogIn_Case: Test Cases/LogIn_Case
+
+2019-03-14 10:38:47 - [TEST_STEP][PASSED] - openBrowser("http://demoaut.katalon.com/"): Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2019-03-14 10:38:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-14 10:38:47 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-14 10:38:54 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2019-03-14 10:38:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-03-14 10:38:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-03-14 10:38:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), UserName): Keys 'John Doe' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2019-03-14 10:38:55 - [MESSAGE][PASSED] - Keys 'John Doe' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2019-03-14 10:38:55 - [TEST_STEP][PASSED] - sleep(3000): null
+
+2019-03-14 10:38:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), Password): Keys 'ThisIsNotAPassword' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2019-03-14 10:38:58 - [MESSAGE][PASSED] - Keys 'ThisIsNotAPassword' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2019-03-14 10:38:58 - [TEST_STEP][PASSED] - sleep(3000): null
+
+2019-03-14 10:39:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-03-14 10:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-03-14 10:39:02 - [TEST_STEP][PASSED] - sleep(3000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LogIn_Case" classname="Test Cases/LogIn_Case" status="PASSED">
+         <system-out><![CDATA[2019-03-14 10:39:07 - [TEST_CASE][PASSED] - Test Cases/LogIn_Case: Test Cases/LogIn_Case
+
+2019-03-14 10:39:07 - [TEST_STEP][PASSED] - openBrowser("http://demoaut.katalon.com/"): Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2019-03-14 10:39:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-14 10:39:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-14 10:39:13 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2019-03-14 10:39:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-03-14 10:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-03-14 10:39:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), UserName): Keys 'Anything' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2019-03-14 10:39:13 - [MESSAGE][PASSED] - Keys 'Anything' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2019-03-14 10:39:13 - [TEST_STEP][PASSED] - sleep(3000): null
+
+2019-03-14 10:39:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), Password): Keys 'AnyValue' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2019-03-14 10:39:17 - [MESSAGE][PASSED] - Keys 'AnyValue' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2019-03-14 10:39:17 - [TEST_STEP][PASSED] - sleep(3000): null
+
+2019-03-14 10:39:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-03-14 10:39:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-03-14 10:39:20 - [TEST_STEP][PASSED] - sleep(3000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LogIn_Case" classname="Test Cases/LogIn_Case" status="PASSED">
+         <system-out><![CDATA[2019-03-14 10:39:26 - [TEST_CASE][PASSED] - Test Cases/LogIn_Case: Test Cases/LogIn_Case
+
+2019-03-14 10:39:26 - [TEST_STEP][PASSED] - openBrowser("http://demoaut.katalon.com/"): Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2019-03-14 10:39:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-14 10:39:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-14 10:39:31 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2019-03-14 10:39:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-03-14 10:39:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-03-14 10:39:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), UserName): Keys 'SameName' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2019-03-14 10:39:32 - [MESSAGE][PASSED] - Keys 'SameName' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2019-03-14 10:39:32 - [TEST_STEP][PASSED] - sleep(3000): null
+
+2019-03-14 10:39:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), Password): Keys 'SameValue' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2019-03-14 10:39:35 - [MESSAGE][PASSED] - Keys 'SameValue' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2019-03-14 10:39:35 - [TEST_STEP][PASSED] - sleep(3000): null
+
+2019-03-14 10:39:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-03-14 10:39:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-03-14 10:39:39 - [TEST_STEP][PASSED] - sleep(3000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LogIn_Case" classname="Test Cases/LogIn_Case" status="PASSED">
+         <system-out><![CDATA[2019-03-14 10:39:44 - [TEST_CASE][PASSED] - Test Cases/LogIn_Case: Test Cases/LogIn_Case
+
+2019-03-14 10:39:44 - [TEST_STEP][PASSED] - openBrowser("http://demoaut.katalon.com/"): Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2019-03-14 10:39:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-14 10:39:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-14 10:39:50 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2019-03-14 10:39:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-03-14 10:39:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-03-14 10:39:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), UserName): Keys 'Blank' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2019-03-14 10:39:51 - [MESSAGE][PASSED] - Keys 'Blank' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2019-03-14 10:39:51 - [TEST_STEP][PASSED] - sleep(3000): null
+
+2019-03-14 10:39:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), Password): Keys 'Blank' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2019-03-14 10:39:54 - [MESSAGE][PASSED] - Keys 'Blank' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2019-03-14 10:39:54 - [TEST_STEP][PASSED] - sleep(3000): null
+
+2019-03-14 10:39:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-03-14 10:39:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-03-14 10:39:58 - [TEST_STEP][PASSED] - sleep(3000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-14 10:38:46 - [TEST_SUITE][PASSED] - LogIn_Suite: Test Cases/LogIn_Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

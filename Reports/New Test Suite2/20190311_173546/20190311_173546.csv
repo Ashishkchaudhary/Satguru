@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite2,Chrome 71.0.3578.98,,2019-03-11 17:38:32,2019-03-11 17:38:46,14.307s,FAILED
+,,,,,,
+Test Cases/TestCase_IRCTC,Chrome 71.0.3578.98,,2019-03-11 17:38:32,2019-03-11 17:38:46,13.743s,FAILED
+"openBrowser(""www.irctc.com"")",Chrome 71.0.3578.98,,2019-03-11 17:38:33,2019-03-11 17:38:40,6.828s,PASSED
+"click(findTestObject(""Object Repository/Page_IRCTC Corporate Portal/div_TOURISM""))",Chrome 71.0.3578.98,,2019-03-11 17:38:40,2019-03-11 17:38:40,0.402s,PASSED
+switchToWindowIndex(1),Chrome 71.0.3578.98,,2019-03-11 17:38:40,2019-03-11 17:38:40,0.080s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_IRCTC Tourism Official Website  Incredible India Travel  Tour Package/a_Europe""), 5)",Chrome 71.0.3578.98,,2019-03-11 17:38:40,2019-03-11 17:38:46,5.876s,FAILED

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DataTestSuite,Chrome 71.0.3578.98,,2019-03-13 10:49:35,2019-03-13 10:49:48,13.487s,ERROR
+,,,,,,
+Test Cases/New Test Case1,Chrome 71.0.3578.98,,2019-03-13 10:49:35,2019-03-13 10:49:48,13.070s,ERROR
+openBrowser(null),Chrome 71.0.3578.98,,2019-03-13 10:49:36,2019-03-13 10:49:38,2.766s,PASSED
+"navigateToUrl(""http://demoaut.katalon.com/"")",Chrome 71.0.3578.98,,2019-03-13 10:49:38,2019-03-13 10:49:43,4.253s,PASSED
+"click(findTestObject(""Object Repository/Home_Page/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 71.0.3578.98,,2019-03-13 10:49:43,2019-03-13 10:49:43,0.726s,PASSED
+"setText(findTestObject(""Object Repository/Home_Page/Page_CURA Healthcare Service/input_Username_username""), Username)",Chrome 71.0.3578.98,,2019-03-13 10:49:43,2019-03-13 10:49:44,0.421s,PASSED
+"sendKeys(findTestObject(""Object Repository/Home_Page/Page_CURA Healthcare Service/input_Password_password""), password)",Chrome 71.0.3578.98,,2019-03-13 10:49:44,2019-03-13 10:49:44,0.283s,PASSED
+"click(findTestObject(""Object Repository/Home_Page/Page_CURA Healthcare Service/button_Login""))",Chrome 71.0.3578.98,,2019-03-13 10:49:44,2019-03-13 10:49:45,0.957s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission""))",Chrome 71.0.3578.98,,2019-03-13 10:49:45,2019-03-13 10:49:45,0.179s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""))",Chrome 71.0.3578.98,,2019-03-13 10:49:45,2019-03-13 10:49:45,0.178s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), StrText)",Chrome 71.0.3578.98,,2019-03-13 10:49:45,2019-03-13 10:49:46,0.170s,PASSED
+"selectOptionByIndex(findTestObject(""Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center""), variable)",Chrome 71.0.3578.98,,2019-03-13 10:49:46,2019-03-13 10:49:46,0.188s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""), java.util.Date)",Chrome 71.0.3578.98,,2019-03-13 10:49:46,2019-03-13 10:49:46,0.060s,ERROR

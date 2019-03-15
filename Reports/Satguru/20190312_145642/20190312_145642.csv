@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Satguru,Chrome 71.0.3578.98,,2019-03-12 14:56:44,2019-03-12 14:57:00,16.212s,PASSED
+,,,,,,
+Test Cases/Sample2,Chrome 71.0.3578.98,,2019-03-12 14:56:44,2019-03-12 14:57:00,15.756s,PASSED
+"openBrowser(""http://192.168.1.246/satguruportal/"")",Chrome 71.0.3578.98,,2019-03-12 14:56:45,2019-03-12 14:56:48,3.128s,PASSED
+"sendKeys(findTestObject(""Object Repository/Sample_satguru/Page_Satguru Agent Portal Login Page/input_Login_displayUserType""), ""AGN231"")",Chrome 71.0.3578.98,,2019-03-12 14:56:48,2019-03-12 14:56:48,0.197s,PASSED
+"sendKeys(findTestObject(""Object Repository/Sample_satguru/Page_Satguru Agent Portal Login Page/input_Login_userAlias""), ""xyza@yopmail.com"")",Chrome 71.0.3578.98,,2019-03-12 14:56:48,2019-03-12 14:56:48,0.295s,PASSED
+"sendKeys(findTestObject(""Object Repository/Sample_satguru/Page_Satguru Agent Portal Login Page/input_Login_password_password""), ""Xyza@123"")",Chrome 71.0.3578.98,,2019-03-12 14:56:48,2019-03-12 14:56:49,0.278s,PASSED
+"click(findTestObject(""Object Repository/Sample_satguru/Page_Satguru Agent Portal Login Page/input_Remember Me_btn orange-btn""))",Chrome 71.0.3578.98,,2019-03-12 14:56:49,2019-03-12 14:56:51,2.898s,PASSED
+sleep(5000),Chrome 71.0.3578.98,,2019-03-12 14:56:51,2019-03-12 14:56:56,5.002s,PASSED
+"click(findTestObject(""Object Repository/Sample_satguru/Page_satguruportal/a""))",Chrome 71.0.3578.98,,2019-03-12 14:56:56,2019-03-12 14:56:57,0.591s,PASSED
+"sendKeys(findTestObject(""Object Repository/Sample_satguru/Page_satguruportal/input_Multi City_startingFrom_1""), ""del"")",Chrome 71.0.3578.98,,2019-03-12 14:56:57,2019-03-12 14:56:57,0.162s,PASSED
+"click(findTestObject(""Object Repository/Sample_satguru/Page_satguruportal/div_DEL - New Delhi - India - Indira Gandhi Internatio...""))",Chrome 71.0.3578.98,,2019-03-12 14:56:57,2019-03-12 14:56:58,0.663s,PASSED
+"sendKeys(findTestObject(""Object Repository/Sample_satguru/Page_satguruportal/input_Multi City_goingTo_1""), ""BLR"")",Chrome 71.0.3578.98,,2019-03-12 14:56:58,2019-03-12 14:56:58,0.168s,PASSED
+"click(findTestObject(""Object Repository/Sample_satguru/Page_satguruportal/div_BLR - Bangalore - India - Bangalore International ...""))",Chrome 71.0.3578.98,,2019-03-12 14:56:58,2019-03-12 14:56:59,0.646s,PASSED
+"click(findTestObject(""Object Repository/Sample_satguru/Page_satguruportal/input_Airport is not available_flightwidgetElement0.dateOfJourney""))",Chrome 71.0.3578.98,,2019-03-12 14:56:59,2019-03-12 14:56:59,0.143s,PASSED
+"click(findTestObject(""Object Repository/Sample_satguru/Page_satguruportal/a_13""))",Chrome 71.0.3578.98,,2019-03-12 14:56:59,2019-03-12 14:56:59,0.149s,PASSED
+"click(findTestObject(""Object Repository/Sample_satguru/Page_satguruportal/input_Exclude LCC_searchFlights btn orange-btn""))",Chrome 71.0.3578.98,,2019-03-12 14:56:59,2019-03-12 14:57:00,1.080s,PASSED

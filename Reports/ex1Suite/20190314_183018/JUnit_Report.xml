@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ex1Suite" time="12" tests="0" failures="0" errors="1">
+   <testsuite name="ex1Suite" tests="0" failures="0" errors="1" time="12" timestamp="2019-03-14 18:30:21" hostname="ttuser3 - ubuntu11" id="Test Suites/ex1Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/ttuser3/Katalon Studio/FirstProject/Reports/ex1Suite/20190314_183018"/>
+         <property name="logFiles" value="/home/ttuser3/Katalon Studio/FirstProject/Reports/ex1Suite/20190314_183018/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ttuser3 - ubuntu11"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="15dca04e7c3181e428ea202fa015f0a5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/ex1" classname="Test Cases/ex1" status="ERROR">
+         <error type="ERROR" message="Test Cases/ex1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: newPackage.Auto.ddate() is applicable for argument types: () values: []
+Possible solutions: ddate(int), wait(), act(), any(), dump(), wait(long)
+"/>
+         <system-out><![CDATA[2019-03-14 18:30:21 - [TEST_CASE][ERROR] - Test Cases/ex1: Test Cases/ex1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: newPackage.Auto.ddate() is applicable for argument types: () values: []
+Possible solutions: ddate(int), wait(), act(), any(), dump(), wait(long)
+
+
+2019-03-14 18:30:22 - [TEST_STEP][PASSED] - openBrowser("https://www.goibibo.com/"): Browser is opened with url: 'https://www.goibibo.com/'
+
+2019-03-14 18:30:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-14 18:30:22 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-14 18:30:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.goibibo.com/'
+
+2019-03-14 18:30:29 - [TEST_STEP][PASSED] - sleep(2000): null
+
+2019-03-14 18:30:31 - [TEST_STEP][ERROR] - newPackage.Auto.ddate(): newPackage.Auto.ddate() FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: newPackage.Auto.ddate() is applicable for argument types: () values: []
+Possible solutions: ddate(int), wait(), act(), any(), dump(), wait(long)
+
+
+2019-03-14 18:30:31 - [MESSAGE][ERROR] - No signature of method: newPackage.Auto.ddate() is applicable for argument types: () values: []
+Possible solutions: ddate(int), wait(), act(), any(), dump(), wait(long)
+
+2019-03-14 18:30:31 - [MESSAGE][ERROR] - newPackage.Auto.ddate() FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: newPackage.Auto.ddate() is applicable for argument types: () values: []
+Possible solutions: ddate(int), wait(), act(), any(), dump(), wait(long)]]></system-out>
+         <system-err><![CDATA[2019-03-14 18:30:21 - [TEST_CASE][ERROR] - Test Cases/ex1: Test Cases/ex1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: newPackage.Auto.ddate() is applicable for argument types: () values: []
+Possible solutions: ddate(int), wait(), act(), any(), dump(), wait(long)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-14 18:30:21 - [TEST_SUITE][ERROR] - ex1Suite: Test Cases/ex1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: newPackage.Auto.ddate() is applicable for argument types: () values: []
+Possible solutions: ddate(int), wait(), act(), any(), dump(), wait(long)]]></system-out>
+      <system-err><![CDATA[2019-03-14 18:30:21 - [TEST_SUITE][ERROR] - ex1Suite: Test Cases/ex1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: newPackage.Auto.ddate() is applicable for argument types: () values: []
+Possible solutions: ddate(int), wait(), act(), any(), dump(), wait(long)]]></system-err>
+   </testsuite>
+</testsuites>

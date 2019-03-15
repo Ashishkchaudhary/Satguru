@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Satguru" time="16" tests="1" failures="0" errors="0">
+   <testsuite name="Satguru" tests="1" failures="0" errors="0" time="16" timestamp="2019-03-12 14:56:44" hostname="ttuser3 - ubuntu11" id="Test Suites/Satguru">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/ttuser3/Katalon Studio/FirstProject/Reports/Satguru/20190312_145642"/>
+         <property name="logFiles" value="/home/ttuser3/Katalon Studio/FirstProject/Reports/Satguru/20190312_145642/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ttuser3 - ubuntu11"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="98309f46f24917d9abde94bae6adf594"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Sample2" classname="Test Cases/Sample2" status="PASSED">
+         <system-out><![CDATA[2019-03-12 14:56:44 - [TEST_CASE][PASSED] - Test Cases/Sample2: Test Cases/Sample2
+
+2019-03-12 14:56:45 - [TEST_STEP][PASSED] - openBrowser("http://192.168.1.246/satguruportal/"): Browser is opened with url: 'http://192.168.1.246/satguruportal/'
+
+2019-03-12 14:56:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-12 14:56:45 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-12 14:56:48 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.1.246/satguruportal/'
+
+2019-03-12 14:56:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Sample_satguru/Page_Satguru Agent Portal Login Page/input_Login_displayUserType"), "AGN231"): Keys 'AGN231' sent to object: 'Object Repository/Sample_satguru/Page_Satguru Agent Portal Login Page/input_Login_displayUserType'
+
+2019-03-12 14:56:48 - [MESSAGE][PASSED] - Keys 'AGN231' sent to object: 'Object Repository/Sample_satguru/Page_Satguru Agent Portal Login Page/input_Login_displayUserType'
+
+2019-03-12 14:56:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Sample_satguru/Page_Satguru Agent Portal Login Page/input_Login_userAlias"), "xyza@yopmail.com"): Keys 'xyza@yopmail.com' sent to object: 'Object Repository/Sample_satguru/Page_Satguru Agent Portal Login Page/input_Login_userAlias'
+
+2019-03-12 14:56:48 - [MESSAGE][PASSED] - Keys 'xyza@yopmail.com' sent to object: 'Object Repository/Sample_satguru/Page_Satguru Agent Portal Login Page/input_Login_userAlias'
+
+2019-03-12 14:56:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Sample_satguru/Page_Satguru Agent Portal Login Page/input_Login_password_password"), "Xyza@123"): Keys 'Xyza@123' sent to object: 'Object Repository/Sample_satguru/Page_Satguru Agent Portal Login Page/input_Login_password_password'
+
+2019-03-12 14:56:49 - [MESSAGE][PASSED] - Keys 'Xyza@123' sent to object: 'Object Repository/Sample_satguru/Page_Satguru Agent Portal Login Page/input_Login_password_password'
+
+2019-03-12 14:56:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sample_satguru/Page_Satguru Agent Portal Login Page/input_Remember Me_btn orange-btn")): Object: 'Object Repository/Sample_satguru/Page_Satguru Agent Portal Login Page/input_Remember Me_btn orange-btn' is clicked on
+
+2019-03-12 14:56:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Sample_satguru/Page_Satguru Agent Portal Login Page/input_Remember Me_btn orange-btn' is clicked on
+
+2019-03-12 14:56:51 - [TEST_STEP][PASSED] - sleep(5000): null
+
+2019-03-12 14:56:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sample_satguru/Page_satguruportal/a")): Object: 'Object Repository/Sample_satguru/Page_satguruportal/a' is clicked on
+
+2019-03-12 14:56:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Sample_satguru/Page_satguruportal/a' is clicked on
+
+2019-03-12 14:56:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Sample_satguru/Page_satguruportal/input_Multi City_startingFrom_1"), "del"): Keys 'del' sent to object: 'Object Repository/Sample_satguru/Page_satguruportal/input_Multi City_startingFrom_1'
+
+2019-03-12 14:56:57 - [MESSAGE][PASSED] - Keys 'del' sent to object: 'Object Repository/Sample_satguru/Page_satguruportal/input_Multi City_startingFrom_1'
+
+2019-03-12 14:56:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sample_satguru/Page_satguruportal/div_DEL - New Delhi - India - Indira Gandhi Internatio...")): Object: 'Object Repository/Sample_satguru/Page_satguruportal/div_DEL - New Delhi - India - Indira Gandhi Internatio...' is clicked on
+
+2019-03-12 14:56:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Sample_satguru/Page_satguruportal/div_DEL - New Delhi - India - Indira Gandhi Internatio...' is clicked on
+
+2019-03-12 14:56:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Sample_satguru/Page_satguruportal/input_Multi City_goingTo_1"), "BLR"): Keys 'BLR' sent to object: 'Object Repository/Sample_satguru/Page_satguruportal/input_Multi City_goingTo_1'
+
+2019-03-12 14:56:58 - [MESSAGE][PASSED] - Keys 'BLR' sent to object: 'Object Repository/Sample_satguru/Page_satguruportal/input_Multi City_goingTo_1'
+
+2019-03-12 14:56:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sample_satguru/Page_satguruportal/div_BLR - Bangalore - India - Bangalore International ...")): Object: 'Object Repository/Sample_satguru/Page_satguruportal/div_BLR - Bangalore - India - Bangalore International ...' is clicked on
+
+2019-03-12 14:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Sample_satguru/Page_satguruportal/div_BLR - Bangalore - India - Bangalore International ...' is clicked on
+
+2019-03-12 14:56:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sample_satguru/Page_satguruportal/input_Airport is not available_flightwidgetElement0.dateOfJourney")): Object: 'Object Repository/Sample_satguru/Page_satguruportal/input_Airport is not available_flightwidgetElement0.dateOfJourney' is clicked on
+
+2019-03-12 14:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Sample_satguru/Page_satguruportal/input_Airport is not available_flightwidgetElement0.dateOfJourney' is clicked on
+
+2019-03-12 14:56:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sample_satguru/Page_satguruportal/a_13")): Object: 'Object Repository/Sample_satguru/Page_satguruportal/a_13' is clicked on
+
+2019-03-12 14:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Sample_satguru/Page_satguruportal/a_13' is clicked on
+
+2019-03-12 14:56:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sample_satguru/Page_satguruportal/input_Exclude LCC_searchFlights btn orange-btn")): Object: 'Object Repository/Sample_satguru/Page_satguruportal/input_Exclude LCC_searchFlights btn orange-btn' is clicked on
+
+2019-03-12 14:57:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Sample_satguru/Page_satguruportal/input_Exclude LCC_searchFlights btn orange-btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-12 14:56:44 - [TEST_SUITE][PASSED] - Satguru: Test Cases/Sample2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

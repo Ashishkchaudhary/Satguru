@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>HealthCare</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient>ashish.93kumark@gmail.com;</mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>8db40f40-3320-4afd-a1d2-635603761f38</testSuiteGuid>
+   <testCaseLink>
+      <guid>87d73428-4555-4fa2-abed-12d883d8c529</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/New Test Case1</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a842cf87-698c-477f-bb72-fe3f942f45fd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>88453c10-fe17-40bf-b71b-d819f2cfb32f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2f5af543-6528-42d3-82b2-154205dd8805</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dd4de2f5-d082-4587-8369-c3d65f713e20</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>32a50ae6-855d-4ff0-ae60-9c60ef094502</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
